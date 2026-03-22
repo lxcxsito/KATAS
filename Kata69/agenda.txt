@@ -1,0 +1,1 @@
+[{"name":"Lucas","cognoms":"Martinez","tlf":"123456789","adre\u00e7a":"Carrer Falsa 123"},{"name":"Ana","cognoms":"Gomez","tlf":"987654321","adre\u00e7a":"Avinguda Verda 456"},{"name":"Lucrfegeras","cognoms":"Marregewrtinez","tlf":"123456789","adre\u00e7a":"Carrer Falsa 123"},{"name":"defefe","cognoms":"Gogremez","tlf":"987654321","adre\u00e7a":"Avinguda Verda 456"}]

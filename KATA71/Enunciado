@@ -1,0 +1,8 @@
+Kata 71 per l'especialitat fullstackPHP 14-1-26
+
+La idea d'aquesta kata és crear un tauler de joc de cartes per jugar al joc de trobar parells iguals de cartes.
+
+Ho farem amb HTML/CSS(pots fer servir frameworks CSS si vols)
+El tauler inclou 4 cartes per fila
+Hi ha 4 files
+En aquesta kata només hem de representar les cartes tombades cap avall y un marcador que, de moment, només indicarà 0 punts.

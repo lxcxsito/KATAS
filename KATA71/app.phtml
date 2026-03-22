@@ -1,0 +1,38 @@
+<html>
+    <body class="page">
+        <div class="game-container">
+            <!-- 4*4 -->
+             <?php
+                shuffle($cartas);   
+                for ($i = 0; $i < sizeof($cartas); $i++): ?>
+                    <div class="card" data-index="<?= $i ?>" data-value="<?= $cartas[$i] ?>" >carta<?php echo ($i + 1)?> value : <?php echo $cartas[$i]?></div>
+                <?php endfor; ?>         
+        </div>
+    </body>
+</html>
+<style>
+.page {  
+    background-color: aquamarine;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(0, 136, 255);
+}
+
+.card {
+    height: 100px;
+    width: 200;
+    border: solid;
+    background-color: rgb(255, 9, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+</style>
